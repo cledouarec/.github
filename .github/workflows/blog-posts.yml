@@ -1,0 +1,24 @@
+name: Latest blog posts
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # every day at 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    name: Update the profile README with the latest posts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://embedded-leadership.com/posts/index.xml"
+          readme_path: "./profile/README.md"
+          max_post_count: 5
+          template: "- [$title]($url) <sub>· $date</sub>$newline"
+          date_format: "UTC:mmm d, yyyy"
+          commit_message: "docs(profile): update latest blog posts"
