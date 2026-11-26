@@ -34,8 +34,8 @@ fn main() {
 
 ### 🧰 Toolbox
 
-<a href="https://github.com/LelouchFR/skill-icons#gh-dark-mode-only"><img alt="Rust, Python, TypeScript, C, C++, Markdown, Fedora, Zed, Docker, Claude, Bevy, Hugo" src="https://go-skill-icons.vercel.app/api/icons?i=rust,py,ts,c,cpp,md,fedora,zed,docker,claude,bevy,hugo&theme=dark#gh-dark-mode-only"></a>
-<a href="https://github.com/LelouchFR/skill-icons#gh-light-mode-only"><img alt="Rust, Python, TypeScript, C, C++, Markdown, Fedora, Zed, Docker, Claude, Bevy, Hugo" src="https://go-skill-icons.vercel.app/api/icons?i=rust,py,ts,c,cpp,md,fedora,zed,docker,claude,bevy,hugo&theme=light#gh-light-mode-only"></a>
+<a href="#gh-dark-mode-only"><img alt="Rust, Python, TypeScript, C, C++, Markdown, Fedora, Zed, Docker, Claude, Bevy, Hugo" src="https://go-skill-icons.vercel.app/api/icons?i=rust,py,ts,c,cpp,md,fedora,zed,docker,claude,bevy,hugo&theme=dark#gh-dark-mode-only"></a>
+<a href="#gh-light-mode-only"><img alt="Rust, Python, TypeScript, C, C++, Markdown, Fedora, Zed, Docker, Claude, Bevy, Hugo" src="https://go-skill-icons.vercel.app/api/icons?i=rust,py,ts,c,cpp,md,fedora,zed,docker,claude,bevy,hugo&theme=light#gh-light-mode-only"></a>
 
 ### 🚀 Featured projects
 
